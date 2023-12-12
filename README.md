@@ -1,3 +1,3 @@
 # RawrBuilder
 
-<img src="https://github.com/rawr-code/rawr-builder/blob/main/preview.png" alt="banner">
+<img src="https://github.com/rawr-code/rawr-builder/blob/master/preview.png" alt="banner">
