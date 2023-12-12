@@ -3,7 +3,7 @@ import { IoBugOutline } from 'react-icons/io5'
 
 function Header() {
     return (
-        <header className="h-18 pax-8 flex items-center gap-x-6 border-b border-gray-200 bg-white">
+        <header className="pax-8 flex h-18 items-center gap-x-6 border-b border-gray-200 bg-white">
             <button className="flex flex-col items-start rounded-xl px-6 py-2">
                 <div className="flex items-center gap-x-2">
                     <span className="text-sm font-bold">RawrFlow</span>

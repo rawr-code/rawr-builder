@@ -7,14 +7,14 @@ import Accordion from './Accordion'
 function Controls() {
     return (
         <aside className="flex h-screen w-[300px] flex-col border-l border-gray-200 bg-white">
-            <div className="h-18 flex items-center gap-x-4 border-b border-gray-200 px-6">
+            <div className="flex h-18 items-center gap-x-4 border-b border-gray-200 px-6">
                 <button className="flex items-center justify-center gap-x-2 rounded-xl bg-gray-100 px-4 py-2">
                     <FiUsers className="h-5 w-5 stroke-current text-gray-400" />
                     <span className="text-sm font-semibold leading-6">
                         Invite
                     </span>
                 </button>
-                <button className="bg-primary flex flex-1 items-center justify-center gap-x-2 rounded-xl px-4 py-2 text-sm leading-6 text-white">
+                <button className="flex flex-1 items-center justify-center gap-x-2 rounded-xl bg-primary px-4 py-2 text-sm leading-6 text-white">
                     Publish
                 </button>
             </div>
@@ -33,7 +33,7 @@ function Controls() {
                                     className="h-4 w-4 text-center text-sm outline-none"
                                     defaultValue={20}
                                 />
-                                <div className="border-primary h-2 w-2 border-2 bg-white" />
+                                <div className="h-2 w-2 border-2 border-primary bg-white" />
                                 <input
                                     className="h-4 w-4 text-center text-sm outline-none"
                                     defaultValue={0}
@@ -44,7 +44,7 @@ function Controls() {
                                     className="h-4 w-4 text-center text-sm outline-none"
                                     defaultValue={0}
                                 />
-                                <div className="border-primary h-2 w-2 border-2 bg-white" />
+                                <div className="h-2 w-2 border-2 border-primary bg-white" />
                                 <input
                                     className="h-4 w-4 text-center text-sm outline-none"
                                     defaultValue={0}
@@ -55,7 +55,7 @@ function Controls() {
                                     className="h-4 w-4 text-center text-sm outline-none"
                                     defaultValue={0}
                                 />
-                                <div className="border-primary h-2 w-2 border-2 bg-white" />
+                                <div className="h-2 w-2 border-2 border-primary bg-white" />
                                 <input
                                     className="h-4 w-4 text-center text-sm outline-none"
                                     defaultValue={20}
@@ -66,13 +66,13 @@ function Controls() {
                                     className="h-4 w-4 text-center text-sm outline-none"
                                     defaultValue={0}
                                 />
-                                <div className="border-primary h-2 w-2 border-2 bg-white" />
+                                <div className="h-2 w-2 border-2 border-primary bg-white" />
                                 <input
                                     className="h-4 w-4 text-center text-sm outline-none"
                                     defaultValue={0}
                                 />
                             </div>
-                            <div className="border-primary h-24 w-full rounded-xl border-2 px-10 py-8">
+                            <div className="h-24 w-full rounded-xl border-2 border-primary px-10 py-8">
                                 <div className="h-full w-full rounded bg-gray-200"></div>
                             </div>
                         </div>

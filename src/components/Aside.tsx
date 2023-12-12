@@ -14,8 +14,8 @@ import Tooltip from './Tooltip'
 
 function Aside() {
     return (
-        <aside className="w-18 flex h-screen flex-col items-center border-r border-gray-200 bg-white">
-            <div className="h-18 flex w-full items-center justify-center border-b border-gray-200">
+        <aside className="flex h-screen w-18 flex-col items-center border-r border-gray-200 bg-white">
+            <div className="flex h-18 w-full items-center justify-center border-b border-gray-200">
                 <svg
                     className="h-[21px] w-[25px] lg:h-[27.43px] lg:w-[33.41px]"
                     width="1em"
@@ -33,7 +33,7 @@ function Aside() {
             <nav className="flex flex-1 flex-col gap-y-4 pt-10">
                 <a
                     href="#"
-                    className="text-primary group relative rounded-xl bg-gray-100 p-2 hover:bg-gray-50"
+                    className="group relative rounded-xl bg-gray-100 p-2 text-primary hover:bg-gray-50"
                 >
                     <FiPlusSquare className="h-6 w-6 stroke-current" />
                     <Tooltip>
